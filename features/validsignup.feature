@@ -1,7 +1,7 @@
 # ./features/signup.feature
 
 Feature: Valid Sign Up
-    As a user
+    As a new user
     I want to be able to Sign Up
 
     Scenario: Register on Ocatelkom register page

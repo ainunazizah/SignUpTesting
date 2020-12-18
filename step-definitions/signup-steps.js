@@ -32,23 +32,23 @@ module.exports = function () {
             return page.fillPhoneNumberSignUp.perform();
         })
     });
-
+    this.Given(/^user fill existing email to register$/, function () {
+        driver.then(function () {
+            return page.fillInvalidEmailSignUp.perform();
+        })
+    });
     this.When(/^user fill password to register$/, function () {
         driver.then(function () {
             return page.fillPasswordSignUp.perform();
         })
     });
-    // this.Given(/^user fill email to login$/, function () {
-    //     driver.then(function () {
-    //         return page.fillEmailSignIn.perform();
-    //     })
-    // });
+    
+    this.When(/^user fill invalid password to register$/, function () {
+        driver.then(function () {
+            return page.fillInvalidPasswordSignUp.perform();
+        })
+    });
 
-    // this.When(/^user fill password to login$/, function () {
-    //     driver.then(function () {
-    //         return page.fillPasswordSignIn.perform();
-    //     })
-    // });
 
     this.Then(/^user click create account button$/, function () {
         driver.then(function () {

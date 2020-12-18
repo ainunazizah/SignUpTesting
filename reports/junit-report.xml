@@ -1,43 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="invalid-sign-up;register-on-ocatelkom-register-page" tests="7" failures="0" skipped="0">
+    <testsuite name="invalid-existing-user-sign-up;register-on-ocatelkom-register-page" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="D:/ainun azizah/functional-testing/features/invalidsignup.feature">
+            <property name="URI" value="D:/Repository_ProjectDTI4/SignUpTesting/features/invalidexistingusersignup.feature">
             </property>
         </properties>
-        <testcase name="Given user browse register page" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.000751">
+        <testcase name="Given user browse register page" classname="invalid-existing-user-sign-up;register-on-ocatelkom-register-page" time="0.0011959">
         </testcase>
-        <testcase name="Given user fill first name to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0004769">
+        <testcase name="Given user fill first name to register" classname="invalid-existing-user-sign-up;register-on-ocatelkom-register-page" time="0.0006002">
         </testcase>
-        <testcase name="Given user fill last name to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0002188">
+        <testcase name="Given user fill last name to register" classname="invalid-existing-user-sign-up;register-on-ocatelkom-register-page" time="0.0004438">
         </testcase>
-        <testcase name="Given user fill invalid email to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0003043">
+        <testcase name="Given user fill existing email to register" classname="invalid-existing-user-sign-up;register-on-ocatelkom-register-page" time="0.0003239">
         </testcase>
-        <testcase name="Given user fill phone number to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0001766">
+        <testcase name="Given user fill phone number to register" classname="invalid-existing-user-sign-up;register-on-ocatelkom-register-page" time="0.0013546">
         </testcase>
-        <testcase name="When user fill password to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0001481">
+        <testcase name="When user fill password to register" classname="invalid-existing-user-sign-up;register-on-ocatelkom-register-page" time="0.0004733">
         </testcase>
-        <testcase name="Then user click create account button" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0001473">
+        <testcase name="Then user click create account button" classname="invalid-existing-user-sign-up;register-on-ocatelkom-register-page" time="0.0004734">
+        </testcase>
+    </testsuite>
+    <testsuite name="invalid-password-sign-up;register-on-ocatelkom-register-page" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/Repository_ProjectDTI4/SignUpTesting/features/invalidpasswordsignup.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse register page" classname="invalid-password-sign-up;register-on-ocatelkom-register-page" time="0.000637">
+        </testcase>
+        <testcase name="Given user fill first name to register" classname="invalid-password-sign-up;register-on-ocatelkom-register-page" time="0.0001854">
+        </testcase>
+        <testcase name="Given user fill last name to register" classname="invalid-password-sign-up;register-on-ocatelkom-register-page" time="0.000154">
+        </testcase>
+        <testcase name="Given user fill email to register" classname="invalid-password-sign-up;register-on-ocatelkom-register-page" time="0.0004152">
+        </testcase>
+        <testcase name="Given user fill phone number to register" classname="invalid-password-sign-up;register-on-ocatelkom-register-page" time="0.0002758">
+        </testcase>
+        <testcase name="When user fill invalid password to register" classname="invalid-password-sign-up;register-on-ocatelkom-register-page" time="0.0006941">
+        </testcase>
+        <testcase name="Then user click create account button" classname="invalid-password-sign-up;register-on-ocatelkom-register-page" time="0.0002737">
+        </testcase>
+    </testsuite>
+    <testsuite name="invalid-sign-up;register-on-ocatelkom-register-page" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/Repository_ProjectDTI4/SignUpTesting/features/invalidsignup.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse register page" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0003702">
+        </testcase>
+        <testcase name="Given user fill first name to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0003501">
+        </testcase>
+        <testcase name="Given user fill last name to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0001795">
+        </testcase>
+        <testcase name="Given user fill invalid email to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0002517">
+        </testcase>
+        <testcase name="Given user fill phone number to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0001214">
+        </testcase>
+        <testcase name="When user fill password to register" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0003381">
+        </testcase>
+        <testcase name="Then user click create account button" classname="invalid-sign-up;register-on-ocatelkom-register-page" time="0.0002814">
         </testcase>
     </testsuite>
     <testsuite name="valid-sign-up;register-on-ocatelkom-register-page" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="D:/ainun azizah/functional-testing/features/validsignup.feature">
+            <property name="URI" value="D:/Repository_ProjectDTI4/SignUpTesting/features/validsignup.feature">
             </property>
         </properties>
-        <testcase name="Given user browse register page" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0002763">
+        <testcase name="Given user browse register page" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001803">
         </testcase>
-        <testcase name="Given user fill first name to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001903">
+        <testcase name="Given user fill first name to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001517">
         </testcase>
-        <testcase name="Given user fill last name to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001204">
+        <testcase name="Given user fill last name to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001659">
         </testcase>
-        <testcase name="Given user fill email to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0002065">
+        <testcase name="Given user fill email to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001234">
         </testcase>
-        <testcase name="Given user fill phone number to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0002814">
+        <testcase name="Given user fill phone number to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001461">
         </testcase>
-        <testcase name="When user fill password to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0000922">
+        <testcase name="When user fill password to register" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001576">
         </testcase>
-        <testcase name="Then user click create account button" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0000789">
+        <testcase name="Then user click create account button" classname="valid-sign-up;register-on-ocatelkom-register-page" time="0.0001562">
         </testcase>
     </testsuite>
 </testsuites>

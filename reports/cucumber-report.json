@@ -1,6 +1,254 @@
 [
   {
-    "description": "    As a user\n    I want to be able to Sign Up",
+    "description": "    As a new user\n    I want to be able to Sign Up",
+    "elements": [
+      {
+        "id": "invalid-existing-user-sign-up;register-on-ocatelkom-register-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Register on Ocatelkom register page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse register page",
+            "result": {
+              "status": "passed",
+              "duration": 1195900
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user fill first name to register",
+            "result": {
+              "status": "passed",
+              "duration": 600200
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user fill last name to register",
+            "result": {
+              "status": "passed",
+              "duration": 443800
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user fill existing email to register",
+            "result": {
+              "status": "passed",
+              "duration": 323900
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:35"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user fill phone number to register",
+            "result": {
+              "status": "passed",
+              "duration": 1354600
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user fill password to register",
+            "result": {
+              "status": "passed",
+              "duration": 473300
+            },
+            "line": 13,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click create account button",
+            "result": {
+              "status": "passed",
+              "duration": 473400
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 22532943000
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "invalid-existing-user-sign-up",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Invalid Existing User Sign Up",
+    "tags": [],
+    "uri": "D:/Repository_ProjectDTI4/SignUpTesting/features/invalidexistingusersignup.feature"
+  },
+  {
+    "description": "    As a new user\n    I want to be able to Sign Up",
+    "elements": [
+      {
+        "id": "invalid-password-sign-up;register-on-ocatelkom-register-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Register on Ocatelkom register page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user browse register page",
+            "result": {
+              "status": "passed",
+              "duration": 637000
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user fill first name to register",
+            "result": {
+              "status": "passed",
+              "duration": 185400
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user fill last name to register",
+            "result": {
+              "status": "passed",
+              "duration": 154000
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user fill email to register",
+            "result": {
+              "status": "passed",
+              "duration": 415200
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user fill phone number to register",
+            "result": {
+              "status": "passed",
+              "duration": 275800
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user fill invalid password to register",
+            "result": {
+              "status": "passed",
+              "duration": 694100
+            },
+            "line": 13,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:46"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user click create account button",
+            "result": {
+              "status": "passed",
+              "duration": 273700
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 18289565400
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "invalid-password-sign-up",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Invalid Password Sign Up",
+    "tags": [],
+    "uri": "D:/Repository_ProjectDTI4/SignUpTesting/features/invalidpasswordsignup.feature"
+  },
+  {
+    "description": "    As a new user\n    I want to be able to Sign Up",
     "elements": [
       {
         "id": "invalid-sign-up;register-on-ocatelkom-register-page",
@@ -14,11 +262,11 @@
             "name": "user browse register page",
             "result": {
               "status": "passed",
-              "duration": 751000
+              "duration": 370200
             },
             "line": 8,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:2"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:2"
             }
           },
           {
@@ -27,11 +275,11 @@
             "name": "user fill first name to register",
             "result": {
               "status": "passed",
-              "duration": 476900
+              "duration": 350100
             },
             "line": 9,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:6"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:6"
             }
           },
           {
@@ -40,11 +288,11 @@
             "name": "user fill last name to register",
             "result": {
               "status": "passed",
-              "duration": 218800
+              "duration": 179500
             },
             "line": 10,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:12"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:12"
             }
           },
           {
@@ -53,11 +301,11 @@
             "name": "user fill invalid email to register",
             "result": {
               "status": "passed",
-              "duration": 304300
+              "duration": 251700
             },
             "line": 11,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:24"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:24"
             }
           },
           {
@@ -66,11 +314,11 @@
             "name": "user fill phone number to register",
             "result": {
               "status": "passed",
-              "duration": 176600
+              "duration": 121400
             },
             "line": 12,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:30"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:30"
             }
           },
           {
@@ -79,11 +327,11 @@
             "name": "user fill password to register",
             "result": {
               "status": "passed",
-              "duration": 148100
+              "duration": 338100
             },
             "line": 13,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:36"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:40"
             }
           },
           {
@@ -92,11 +340,11 @@
             "name": "user click create account button",
             "result": {
               "status": "passed",
-              "duration": 147300
+              "duration": 281400
             },
             "line": 14,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:53"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:53"
             }
           },
           {
@@ -104,11 +352,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 14992432400
+              "duration": 15943777100
             },
             "hidden": true,
             "match": {
-              "location": "azizah\\functional-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -121,10 +369,10 @@
     "line": 3,
     "name": "Invalid Sign Up",
     "tags": [],
-    "uri": "D:/ainun azizah/functional-testing/features/invalidsignup.feature"
+    "uri": "D:/Repository_ProjectDTI4/SignUpTesting/features/invalidsignup.feature"
   },
   {
-    "description": "    As a user\n    I want to be able to Sign Up",
+    "description": "    As a new user\n    I want to be able to Sign Up",
     "elements": [
       {
         "id": "valid-sign-up;register-on-ocatelkom-register-page",
@@ -138,11 +386,11 @@
             "name": "user browse register page",
             "result": {
               "status": "passed",
-              "duration": 276300
+              "duration": 180300
             },
             "line": 8,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:2"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:2"
             }
           },
           {
@@ -151,11 +399,11 @@
             "name": "user fill first name to register",
             "result": {
               "status": "passed",
-              "duration": 190300
+              "duration": 151700
             },
             "line": 9,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:6"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:6"
             }
           },
           {
@@ -164,11 +412,11 @@
             "name": "user fill last name to register",
             "result": {
               "status": "passed",
-              "duration": 120400
+              "duration": 165900
             },
             "line": 10,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:12"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:12"
             }
           },
           {
@@ -177,11 +425,11 @@
             "name": "user fill email to register",
             "result": {
               "status": "passed",
-              "duration": 206500
+              "duration": 123400
             },
             "line": 11,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:18"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:18"
             }
           },
           {
@@ -190,11 +438,11 @@
             "name": "user fill phone number to register",
             "result": {
               "status": "passed",
-              "duration": 281400
+              "duration": 146100
             },
             "line": 12,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:30"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:30"
             }
           },
           {
@@ -203,11 +451,11 @@
             "name": "user fill password to register",
             "result": {
               "status": "passed",
-              "duration": 92200
+              "duration": 157600
             },
             "line": 13,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:36"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:40"
             }
           },
           {
@@ -216,11 +464,11 @@
             "name": "user click create account button",
             "result": {
               "status": "passed",
-              "duration": 78900
+              "duration": 156200
             },
             "line": 14,
             "match": {
-              "location": "azizah\\functional-testing\\step-definitions\\signup-steps.js:53"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\step-definitions\\signup-steps.js:53"
             }
           },
           {
@@ -228,11 +476,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 7050847400
+              "duration": 18984362200
             },
             "hidden": true,
             "match": {
-              "location": "azizah\\functional-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "D:\\Repository_ProjectDTI4\\SignUpTesting\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -245,6 +493,6 @@
     "line": 3,
     "name": "Valid Sign Up",
     "tags": [],
-    "uri": "D:/ainun azizah/functional-testing/features/validsignup.feature"
+    "uri": "D:/Repository_ProjectDTI4/SignUpTesting/features/validsignup.feature"
   }
 ]
